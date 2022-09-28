@@ -18,7 +18,7 @@ int indiceMenor(int v[], int n, int i){
 //swap two values
 void swap(int *a, int *b){     //receive the position os values to swap
     int troca;
-    troca = *a;                //swap the values(with the index)
+    troca = *a;                //swap the values
     *a = *b;
     *b = troca;
 }
